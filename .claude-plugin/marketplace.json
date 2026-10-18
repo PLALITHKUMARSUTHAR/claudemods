@@ -1,10 +1,31 @@
 {
   "name": "claudemods",
-  "owner": { "name": "lalith" },
-  "metadata": { "description": "Replay Theater, Savvy Progress, Terminal Browser" },
+  "owner": {
+    "name": "lalith"
+  },
+  "metadata": {
+    "description": "Replay Theater, Savvy Progress, Terminal Browser, Reflect"
+  },
   "plugins": [
-    { "name": "replay-theater", "source": "./plugins/replay-theater", "description": "Step through the last turn's file edits with /replay." },
-    { "name": "savvy-progress", "source": "./plugins/savvy-progress", "description": "Progress bar above the prompt and live agents panel." },
-    { "name": "terminal-browser", "source": "./plugins/terminal-browser", "description": "In-terminal browser via /browser (needs the terminal-browser binary)." }
+    {
+      "name": "replay-theater",
+      "source": "./plugins/replay-theater",
+      "description": "Step through the last turn's file edits with /replay."
+    },
+    {
+      "name": "savvy-progress",
+      "source": "./plugins/savvy-progress",
+      "description": "Progress bar above the prompt and live agents panel."
+    },
+    {
+      "name": "terminal-browser",
+      "source": "./plugins/terminal-browser",
+      "description": "In-terminal browser via /browser (needs the terminal-browser binary)."
+    },
+    {
+      "name": "reflect-mod",
+      "source": "./plugins/reflect-mod",
+      "description": "claude-reflect as a mod: finds reusable corrections in your prompts and saves them to CLAUDE.md from a band above the prompt."
+    }
   ]
 }
